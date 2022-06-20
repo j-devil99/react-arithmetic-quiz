@@ -6,7 +6,6 @@ const config = {
 		answers: [],
 		currentQuestion: null,
 		tempAnswer: '',
-		score: 0,
 	},
 	getQuestions: ({ numOfQuestions, operandLimit }) => {
 		return [...Array(numOfQuestions).keys()].map((num, index) => {

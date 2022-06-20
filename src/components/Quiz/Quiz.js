@@ -33,22 +33,17 @@ function reducer(state, action) {
 				...state,
 				answers: action.payload,
 			};
-		case 'INCREMENT_SCORE':
-			return {
-				...state,
-				score: state.score + 1,
-			};
 		default:
 			return state;
 	}
 }
 
 const Quiz = (props) => {
-	const { numOfQuestions, operandLimit } = props;
+	const { numOfQuestions, operandLimit, score, setScore } = props;
 
 	const [state, dispatch] = useReducer(reducer, config.initialState);
 
-	const { questions, currentQuestion, answers, tempAnswer, score } = state;
+	const { questions, currentQuestion, answers, tempAnswer } = state;
 
 	const timerRef = useRef(null);
 
@@ -69,6 +64,7 @@ const Quiz = (props) => {
 		dispatch({
 			type: 'INIT',
 		});
+		setScore(0);
 	};
 
 	const startQuiz = () => {
@@ -95,8 +91,8 @@ const Quiz = (props) => {
 		const tempAnswers = [...answers];
 		tempAnswers[currentQuestion] = answer;
 		if (answer === questions[currentQuestion].solution) {
-			dispatch({
-				type: 'INCREMENT_SCORE',
+			setScore((prev) => {
+				return prev + 1;
 			});
 		}
 		dispatch({

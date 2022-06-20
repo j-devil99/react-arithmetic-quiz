@@ -1,14 +1,26 @@
 @import './styles/index';
 
 .App {
-	@include flex(row, space-evenly);
-
+	@include flex(column, flex-start);
+	gap: 1rem;
 	color: $grey;
 	background: $grey;
 	padding: 1rem;
 
 	min-height: 100%;
 	height: auto;
+
+	.cumulative-result {
+		background: $dark-grey;
+		padding: 1rem;
+		border-radius: 4px;
+	}
+
+	.quizzes {
+		@include flex(row, space-evenly, flex-start);
+        padding: 4rem 0px;
+		width: 100%;
+	}
 
 	input {
 		border-radius: 4px;
