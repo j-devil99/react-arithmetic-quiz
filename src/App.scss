@@ -1,0 +1,41 @@
+@import './styles/index';
+
+.App {
+	@include flex(row, space-evenly);
+
+	color: $grey;
+	background: $grey;
+	padding: 1rem;
+
+	min-height: 100%;
+	height: auto;
+
+	input {
+		border-radius: 4px;
+		border: 1px solid $grey;
+		padding: 0.5rem 0.75rem;
+		outline: none;
+		resize: none;
+		background: $white;
+		font-family: inherit;
+		font-size: inherit;
+
+		&[type='number'] {
+			@include removeNumInputArrows;
+		}
+	}
+
+	button {
+		background: transparent;
+		border: 1px solid $primary;
+		color: $primary;
+		border-radius: 4px;
+		text-transform: uppercase;
+		cursor: pointer;
+		padding: 0.5rem 0.75rem;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}

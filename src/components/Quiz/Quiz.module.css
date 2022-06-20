@@ -1,0 +1,56 @@
+.root {
+  -webkit-box-shadow: 0 1px 5px 0 rgba(23, 26, 41, 0.2), 0 3px 10px 0 rgba(23, 26, 41, 0.2);
+          box-shadow: 0 1px 5px 0 rgba(23, 26, 41, 0.2), 0 3px 10px 0 rgba(23, 26, 41, 0.2);
+  border: 1px solid rgba(23, 26, 41, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 36rem;
+  width: 100%;
+  min-height: 20rem;
+  border-radius: 4px;
+  padding: 1rem;
+  position: relative;
+  background: #ffffff;
+  background: #20232a;
+}
+
+.root .reset {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.root .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.root .timer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+/*# sourceMappingURL=Quiz.module.css.map */

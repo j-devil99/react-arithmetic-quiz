@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EACL,OAAO,EAAE,IAAI;EACV,SAAS,EAAE,OAAO;EAClB,KAAK,EELC,OAAO;CFMhB",
+    "sources": [
+        "Timer.module.scss",
+        "../../styles/_index.scss",
+        "../../styles/_colors.scss",
+        "../../styles/_responsive.scss",
+        "../../styles/_utils.scss",
+        "../../styles/_colors.scss"
+    ],
+    "names": [],
+    "file": "Timer.module.css"
+}

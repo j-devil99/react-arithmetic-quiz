@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EICL,OAAO,EAAE,IAAI;EACb,WAAW,EAF2D,MAAM;EAG5E,cAAc,EJFA,MAAM;EIGpB,eAAe,EAJkC,MAAM;EJEvD,GAAG,EAAE,IAAI;EACT,SAAS,EAAE,MAAM;EACjB,KAAK,EENI,OAAO;CFkBhB;;AAhBD,AAMC,KANI,CAMJ,OAAO,CAAC;EACP,WAAW,EAAE,GAAG;CAChB;;AARF,AAUC,KAVI,CAUJ,MAAM,CAAC;EACN,KAAK,EEbG,OAAO;EFcf,OAAO,EAAE,MAAM;EACf,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,GAAG,CAAC,KAAK,CEhBT,OAAO;CFiBf",
+    "sources": [
+        "Question.module.scss",
+        "../../styles/_index.scss",
+        "../../styles/_colors.scss",
+        "../../styles/_responsive.scss",
+        "../../styles/_utils.scss",
+        "../../styles/_colors.scss"
+    ],
+    "names": [],
+    "file": "Question.module.css"
+}

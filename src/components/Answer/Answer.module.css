@@ -1,0 +1,42 @@
+.root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  min-width: 0px;
+  border: none;
+}
+
+.root .input {
+  text-align: center;
+  max-width: 6rem;
+}
+
+.root .input.correct, .root .input.wrong {
+  color: #ffffff;
+}
+
+.root .input.correct {
+  background: #66c24d;
+}
+
+.root .input.wrong {
+  background: #ff6961;
+}
+
+.root .submit {
+  background: #61dafb;
+  color: #171a29;
+}
+/*# sourceMappingURL=Answer.module.css.map */

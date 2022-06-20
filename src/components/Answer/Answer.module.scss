@@ -1,0 +1,33 @@
+@import '../../styles/index';
+
+.root {
+	@include flex(column, center, stretch);
+	gap: 1rem;
+
+	padding: 1rem;
+	min-width: 0px;
+	border: none;
+
+	.input {
+		text-align: center;
+		max-width: 6rem;
+
+		&.correct,
+		&.wrong {
+			color: $white;
+		}
+
+		&.correct {
+			background: $success;
+		}
+
+		&.wrong {
+			background: $pastel-red;
+		}
+	}
+
+	.submit {
+		background: $primary;
+		color: $black;
+	}
+}

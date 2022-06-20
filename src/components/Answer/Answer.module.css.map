@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;EICL,OAAO,EAAE,IAAI;EACb,WAAW,EJDmB,OAAO;EIErC,cAAc,EJFA,MAAM;EIGpB,eAAe,EJHO,MAAM;EAC5B,GAAG,EAAE,IAAI;EAET,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,GAAG;EACd,MAAM,EAAE,IAAI;CAwBZ;;AA9BD,AAQC,KARI,CAQJ,MAAM,CAAC;EACN,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CAcf;;AAxBF,AAYE,KAZG,CAQJ,MAAM,AAIJ,QAAQ,EAZX,KAAK,CAQJ,MAAM,AAKJ,MAAM,CAAC;EACP,KAAK,EEdA,OAAO;CFeZ;;AAfH,AAiBE,KAjBG,CAQJ,MAAM,AASJ,QAAQ,CAAC;EACT,UAAU,EEZH,OAAO;CFad;;AAnBH,AAqBE,KArBG,CAQJ,MAAM,AAaJ,MAAM,CAAC;EACP,UAAU,EEfA,OAAO;CFgBjB;;AAvBH,AA0BC,KA1BI,CA0BJ,OAAO,CAAC;EACP,UAAU,EE7BF,OAAO;EF8Bf,KAAK,EEzBC,OAAO;CF0Bb",
+    "sources": [
+        "Answer.module.scss",
+        "../../styles/_index.scss",
+        "../../styles/_colors.scss",
+        "../../styles/_responsive.scss",
+        "../../styles/_utils.scss",
+        "../../styles/_colors.scss"
+    ],
+    "names": [],
+    "file": "Answer.module.css"
+}
